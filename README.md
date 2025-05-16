@@ -56,6 +56,9 @@ A handy little app that effortlessly converts any currency into another — what
 MIT License © 2025 Dinesh Bajgain
 
 ##Contact
-Feel free to reach out at [your-email@example.com] or open an issue on GitHub!
+Feel free to reach out at [dinesh.bazgain@gmail.com] or open an issue on GitHub!
 
-Happy coding and converting! 💸🚀
+Happy coding and converting!!!
+
+![Demo image of the project](#)
+
