@@ -60,5 +60,5 @@ Feel free to reach out at [dinesh.bazgain@gmail.com] or open an issue on GitHub!
 
 Happy coding and converting!!!
 
-![Demo image of the project](../assets/demo_image.png)
+![Demo image of the project](assets/demo_image.png)
 
