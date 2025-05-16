@@ -1,6 +1,3 @@
-// const BASE_URL =
-//   "https://api.exchangeratesapi.io/v1/'+endpoint+'?access_key='+access_key+'&from='+from+'&to='+to+'&amount='+amount";
-// `https://api.exchangeratesapi.io/v1/latest?access_key=ecfbb435748c2baca7679a78fb91e72e&`;
 const dropdowns = document.querySelectorAll(".dropdown select");
 const convertBtn = document.querySelector(".convertBtn button");
 
