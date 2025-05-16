@@ -3,96 +3,109 @@
   padding: 0;
 }
 
-h1{
-    text-align: center;
-}
-
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   background-color: darkgray;
+  font-family: system-ui;
+}
+
+h1 {
+  text-align: center;
 }
 
 .container {
-  background-color: antiquewhite;
+  background-color: rgb(175, 247, 230);
   padding: 2rem;
   border-radius: 1rem;
   min-height: 50vh;
   width: 50vh;
 }
-
-form{
-    margin: 2rem 0 1rem 0;
+.amount p {
+  padding: 0 0 0.5rem 0;
 }
 
-form select, button, input{
-    width: 100%;
-    border: none;
-    outline: none;
-    border-radius: 0.7rem;
+form {
+  margin: 2rem 0 1rem 0;
 }
 
-form input{
-    border: 1px solid grey;
-    font-size: 1rem;
-    height: 2rem;
-    padding-left: 1rem;
+form select,
+button,
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.7rem;
 }
 
-.dropdown{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 2rem;
+form input {
+  border: 1px solid rgb(174, 172, 172);
+  font-size: 1rem;
+  height: 2rem;
+  padding: 0.5rem;
 }
 
-.dropdown p{
-    font-size: 1.2rem;
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
-.select_container{
-    display: flex;
-    width: 8rem;
-    justify-content: center;
-    align-items: center;
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
 }
 
-.select_container img{
-    max-width: 5rem;
+.dropdown p {
+  font-size: 1.2rem;
 }
 
-.select_container select{
-    background: transparent;
-    font-size: 1rem;
+.select_container {
+  display: flex;
+  width: 8rem;
+  justify-content: center;
+  align-items: center;
 }
 
-.msg{
-    font-size: 1.2rem;
-    text-align: center;
-    border: 1px solid gray;
-    border-radius: 5px;
-    background-color: aliceblue;
-    box-shadow: .4rem 0.5rem 1rem rgb(45, 44, 44, .3);
-    padding: 1rem;
-    margin: 2rem 0 2rem 0;
+.select_container img {
+  max-width: 5rem;
 }
 
-.convertBtn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.select_container select {
+  background: transparent;
+  font-size: 1rem;
 }
 
-.convertBtn button{
-    font-size: 1.2rem;
-    text-align: center;
-    border: 1px solid gray;
-    border-radius: 5px;
-    padding: .7rem;
-    width: fit-content;
-    align-content: center;
-    cursor: pointer;
-    background-color: rgb(164, 159, 159);
+.msg {
+  color: #aaa;
+  font-style: italic;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: aliceblue;
+  box-shadow: 0.4rem 0.5rem 1rem rgb(45, 44, 44, 0.3);
+  padding: 1rem;
+  margin: 2rem 0 2rem 0;
+}
+
+.convertBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.convertBtn button {
+  font-size: 1.2rem;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 0.7rem;
+  width: fit-content;
+  align-content: center;
+  cursor: pointer;
+  background-color: rgb(164, 159, 159);
 }
