@@ -52,17 +52,20 @@ A handy little app that effortlessly converts any currency into another — what
 3. Provide currency charts and trends.
 4. Mobile app version? 🤔
 
-## License
-
 ---
+
+## License
 
 MIT License © 2025 Dinesh Bajgain
 
-## Contact
 
 ---
 
+## Contact
+
 Feel free to reach out at [dinesh.bazgain@gmail.com] or open an issue on GitHub!
+
+---
 
 ### Happy coding and converting!!!
 
